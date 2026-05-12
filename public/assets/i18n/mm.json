@@ -1,0 +1,41 @@
+{
+  "HELLO": "မင်္ဂလာပါ",
+  "SIGN_IN_TO_CONTINUE": "ဆက်လက်လုပ်ဆောင်ရန် လော့ဂ်အင် ဝင်ပါ",
+  "SIGN_IN": "လော့ဂ်အင် ဝင်ပါ",
+  "EMAIL_OR_USERNAME": "အီးမေးလ် သို့မဟုတ် အသုံးပြုသူအမည်",
+  "EMAIL_ADDRESS": "အီးမေးလ်လိပ်စာ",
+  "LOGIN": "လော့ဂ်အင်",
+  "USERNAME": "အသုံးပြုသူအမည်",
+  "PASSWORD": "စကားဝှက်",
+  "REMEMBER_ME": "ငါ့ကို မှတ်ထားပါ",
+  "FORGOT_PASSWORD": "စကားဝှက် မေ့နေပါသလား?",
+  "MENU": {
+    "HOME": "ပင်မ",
+    "HOME.DASHBOARD": "ဒက်ရှ်ဘုတ်",
+
+    "MANAGEMENT": "စီမံခန့်ခွဲမှု",
+    "MANAGEMENT.PARTNER": "မိတ်ဖက်",
+
+    "MANAGEMENT.PROVIDER": "ပရိုဘိုက်ဒါ",
+    "MANAGEMENT.PROVIDER.ONEPAY": "ဝမ်း ပေး",
+    "MANAGEMENT.PROVIDER.UABPAY": "ယူအေဘီ ပေး",
+    "MANAGEMENT.PROVIDER.AYAPAY": "အေဝိုင်အေ ပေး",
+    "MANAGEMENT.PROVIDER.KBZPAY": "ကေဘီဇက် ပေး",
+    "MANAGEMENT.PROVIDER.WAVEPAY": "ဝေ့ ပေး",
+    "MANAGEMENT.PROVIDER.APLUS": "အေ ပလပ်",
+    "MANAGEMENT.PROVIDER.MPU": "အမ်ပီယူ ပေး",
+
+    "TRANSACTION": "ငွေလဲလှယ်မှု",
+    "TRANSACTION.LOG": "လော့",
+    "TRANSACTION.LOG.ONEPAY": "ဝမ်း ပေး",
+    "TRANSACTION.LOG.UABPAY": "ယူအေဘီ ပေး",
+    "TRANSACTION.LOG.AYAPAY": "အေဝိုင်အေ ပေး",
+    "TRANSACTION.LOG.KBZPAY": "ကေဘီဇက် ပေး",
+    "TRANSACTION.LOG.WAVEPAY": "ဝေ့ ပေး",
+    "TRANSACTION.LOG.APLUS": "အေ ပလပ်",
+    "TRANSACTION.LOG.MPU": "အမ်ပီယူ ပေး",
+
+    "UTILITIES": "Utilities",
+    "UTILITIES.WEBLOG": "ဝပ် လော့"
+  }
+}

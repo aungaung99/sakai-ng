@@ -1,25 +1,47 @@
 import { Component } from '@angular/core';
-import { NotificationsWidget } from './components/notificationswidget';
-import { StatsWidget } from './components/statswidget';
-import { RecentSalesWidget } from './components/recentsaleswidget';
-import { BestSellingWidget } from './components/bestsellingwidget';
-import { RevenueStreamWidget } from './components/revenuestreamwidget';
 
 @Component({
     selector: 'app-dashboard',
-    imports: [StatsWidget, RecentSalesWidget, BestSellingWidget, RevenueStreamWidget, NotificationsWidget],
     template: `
-        <div class="grid grid-cols-12 gap-8">
-            <app-stats-widget class="contents" />
-            <div class="col-span-12 xl:col-span-6">
-                <app-recent-sales-widget />
-                <app-best-selling-widget />
+        <section class="dashboard-welcome">
+            <div class="welcome-card">
+                <h1>Welcome to Efficient Soft Payment Gateway</h1>
+                <p>All payment provider service can pass from us.</p>
             </div>
-            <div class="col-span-12 xl:col-span-6">
-                <app-revenue-stream-widget />
-                <app-notifications-widget />
-            </div>
-        </div>
-    `
+        </section>
+    `,
+    styles: [
+        `
+            .dashboard-welcome {
+                display: grid;
+                grid-template-columns: minmax(0, 1fr);
+                gap: 1rem;
+            }
+
+            .welcome-card {
+                max-width: 58rem;
+                min-height: 6.5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 1.25rem 1.5rem;
+                border-radius: 0.75rem;
+                background: #295bac;
+                color: #ffffff;
+            }
+
+            .welcome-card h1 {
+                margin: 0 0 0.5rem;
+                font-size: clamp(1.25rem, 2vw, 1.65rem);
+                line-height: 1.15;
+                font-weight: 800;
+            }
+
+            .welcome-card p {
+                margin: 0;
+                font-size: 1rem;
+            }
+        `
+    ]
 })
 export class Dashboard {}

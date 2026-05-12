@@ -1,0 +1,42 @@
+{
+  "HELLO": "Hello",
+  "SIGN_IN_TO_CONTINUE": "Sign in to continue",
+  "SIGN_IN": "Sign In",
+  "EMAIL_OR_USERNAME": "Email or Username",
+  "EMAIL_ADDRESS": "Email Address",
+  "LOGIN": "Login",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "REMEMBER_ME": "Remember me",
+  "FORGOT_PASSWORD": "Forgot Password?",
+  "MENU": {
+    "HOME": "Home",
+    "HOME.DASHBOARD": "Dashboard",
+
+    "MANAGEMENT": "Management",
+    "MANAGEMENT.PARTNER": "Partner",
+
+    "MANAGEMENT.PROVIDER": "Provider",
+    "MANAGEMENT.PROVIDER.ONEPAY": "ONE Pay",
+    "MANAGEMENT.PROVIDER.UABPAY": "UAB Pay",
+    "MANAGEMENT.PROVIDER.AYAPAY": "AYA Pay",
+    "MANAGEMENT.PROVIDER.KBZPAY": "KBZ Pay",
+    "MANAGEMENT.PROVIDER.WAVEPAY": "WAVE Pay",
+    "MANAGEMENT.PROVIDER.APLUS": "A Plus",
+    "MANAGEMENT.PROVIDER.MPU": "MPU",
+
+    "TRANSACTION": "Transaction",
+    "TRANSACTION.LOG": "Logs",
+    "TRANSACTION.LOG.ONEPAY": "ONE Pay",
+    "TRANSACTION.LOG.UABPAY": "UAB Pay",
+    "TRANSACTION.LOG.AYAPAY": "AYA Pay",
+    "TRANSACTION.LOG.KBZPAY": "KBZ Pay",
+    "TRANSACTION.LOG.WAVEPAY": "WAVE Pay",
+    "TRANSACTION.LOG.APLUS": "A Plus",
+    "TRANSACTION.LOG.MPU": "MPU",
+
+    "UTILITIES": "Utilities",
+    "UTILITIES.WEBLOG": "Web Logs"
+
+  }
+}
